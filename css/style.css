@@ -150,14 +150,13 @@ a{
 }
 
 .column-left{
-    width: 200px;
+    width: 300px;
     min-height: 300px;
-    margin-right: 150px;
 }
 .column-left > *{
     margin-bottom: 40px;
 }
-.column-left h2, h4{
+.column-left h2{
     color: blueviolet;
 }
 .white{
@@ -166,8 +165,13 @@ a{
 .ul-footer{
     display: flex;
     flex-direction: column;
+    align-items: flex-end   ;
     justify-content: space-around;
     height: 300px;
+}
+.ul-footer :first-child{
+    color: blueviolet;
+    font-size: medium;
 }
 .icon{
     width: 200px;
@@ -176,7 +180,7 @@ a{
 }
 .column-right{
     display: flex;
-    width: 650px;
+    width: 700px;
 }
 .column{
     width: calc( 100% / 4);
@@ -187,19 +191,16 @@ a{
 }
 .container-bottom-footer{
     min-height: 80px;
-    min-width: 800px;
+    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin: auto;
 }
 .bottom-footer{
-    min-width: 600px;
+    width: 1000px;
     min-height: 50px;
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.bottone-footer, .logo-footer{
-    background-color: coral;
 }
