@@ -97,25 +97,22 @@ a{
 .container-top-footer{
     display: flex;
     width: 1000px;
-    min-height: 300px;  
+    min-height: 300px; 
 }
-#gray{
-    background-color: lightgray;
-}
-.block-blu{
-    width: 60%;
+.block-item{
+    width: 100%;
     display: block;
 }
-.item1{
+.item{
     width: 100%;
-    height: 80%;
+    height: 60%;
     margin-top: 100px;
 }
-.block-pink{
+.block-right{
     width: 40%;
 }
-.block-pink :first-child{
-    margin-top: 100px;
+.block-script :first-child{
+    margin-top: 120px;
     margin-bottom: 40px;
 }
 #section4{
