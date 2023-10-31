@@ -108,25 +108,29 @@ a{
     height: 60%;
     margin-top: 100px;
 }
-.block-right{
-    width: 40%;
-}
 .block-script :first-child{
     margin-top: 120px;
     margin-bottom: 40px;
 }
 #section4{
-    background-color: lightgray;
     min-height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .box-green{
-    min-width: 800px;
+    width: 1000px;
     min-height: 600px;
-    background-color: green;
-
+}
+.box-green > *{
+    width: 100%;
+    text-align: center;
+}
+.box-green div > *{
+    margin-bottom: 40px;
+}
+.box-green div:first-child{
+    margin-top: 50px;
 }
 /* footer-top */
 .footer-background-color-top,
