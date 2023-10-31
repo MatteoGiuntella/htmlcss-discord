@@ -47,7 +47,7 @@ body{
 .login{
     justify-content: flex-end;
 }
-ul{
+.ul-header{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -55,6 +55,7 @@ ul{
 li{
     list-style: none;
     line-height: 50%;
+    color: white;
     
 }
 a{
@@ -141,22 +142,44 @@ a{
     display: flex;
     min-height: 300px;
     width: 100%;
-    border-color:1px dashed azure;
+}
+#italia{
+    width: 30px;
+    height: 15px;
+    display: inline-block;
+}
 
-}
-.column-pink{
-    min-width: 40%;
+.column-left{
+    width: 200px;
     min-height: 300px;
-    background-color: pink;
+    margin-right: 150px;
 }
-.column-green{
+.column-left > *{
+    margin-bottom: 40px;
+}
+.column-left h2, h4{
+    color: blueviolet;
+}
+.white{
+    color: white;
+}
+.ul-footer{
     display: flex;
-    width: 60%;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+}
+.icon{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.column-right{
+    display: flex;
+    width: 650px;
 }
 .column{
     width: calc( 100% / 4);
-    background-color: lightgreen;
-    border: 1px solid white;
 }
 /* footer-bottom */
 .footer-background-color-bottom{
