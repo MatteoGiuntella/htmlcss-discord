@@ -67,6 +67,11 @@ a{
     color: black;
     margin-right: 30px;
 }
+.a-background-black{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
 /* header-bottom */
 
 .header-background-color-bottom{
@@ -86,6 +91,7 @@ a{
    margin-bottom: 40px;
    padding: 0 20px;
 }
+
 /* main-section */
 .container-section, 
 .container-top-footer{
