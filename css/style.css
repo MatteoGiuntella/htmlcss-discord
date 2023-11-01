@@ -139,6 +139,12 @@ a{
 .box-green div:first-child{
     margin-top: 50px;
 }
+.bottom-section4{
+    background-image: url(../img/stars.svg);
+}
+#a-section4{
+    height: 100px;
+}
 /* footer-top */
 .footer-background-color-top,
 .footer-background-color-bottom{
