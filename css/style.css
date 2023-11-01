@@ -66,7 +66,6 @@ a{
     border-radius: 20px;
     text-decoration: none;
     color: black;
-    margin-right: 30px;
 }
 .a-background-black{
     background-color: black;
@@ -78,6 +77,7 @@ a{
 .header-background-color-bottom{
     background-image: url(../img/jumbo.png); 
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,6 +91,12 @@ a{
 .info-box-pink{
    margin-bottom: 40px;
    padding: 0 20px;
+}
+.button-header-left{
+    margin-right: 20px;
+}
+.button-header-right{
+    margin-left: 20px;
 }
 
 /* main-section */
@@ -187,7 +193,7 @@ a{
 }
 /* footer-bottom */
 .footer-background-color-bottom{
-    border-top: 1px solid white;
+    border-top: 1px solid blueviolet;
 }
 .container-bottom-footer{
     min-height: 80px;
@@ -203,4 +209,9 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.button-background-purple{
+     background-color: blueviolet;
+     color: white;
+     border: none;
 }
