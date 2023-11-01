@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
-    border: 1px dashed black;
 }
 /* general */
 .heigth{
@@ -141,6 +140,7 @@ a{
 }
 .bottom-section4{
     background-image: url(../img/stars.svg);
+    background-position: center;
 }
 #a-section4{
     height: 100px;
@@ -160,7 +160,6 @@ a{
     height: 15px;
     display: inline-block;
 }
-
 .column-left{
     width: 300px;
     min-height: 300px;
